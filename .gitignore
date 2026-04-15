@@ -1,0 +1,17 @@
+outputs/
+voices/*.wav
+voices/*.mp3
+voices/*.flac
+voices/*.m4a
+voices/*.ogg
+inputs/*.wav
+inputs/*.mp3
+inputs/*.flac
+inputs/*.m4a
+inputs/*.ogg
+*.pyc
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+hf_cache/
+.venv-qwen/
