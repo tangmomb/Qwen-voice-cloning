@@ -1,6 +1,6 @@
 param(
-    [string]$VoiceDir = "voices",
-    [string]$RefsDir = "outputs\qwen_shootout_refs",
+    [string]$VoiceDir = "inputs",
+    [string]$RefsDir = "generated_refs\shootout",
     [string]$OutputDir = "outputs\qwen_shootout",
     [string]$Text = "Salut, c'est moi. On dirait que cette fois la voix est plus stable et plus naturelle.",
     [int[]]$StartSeconds = @(20, 45, 90),

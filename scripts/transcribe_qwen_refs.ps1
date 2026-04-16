@@ -1,5 +1,5 @@
 param(
-    [string]$RefsDir = "outputs\qwen_refs",
+    [string]$RefsDir = "generated_refs",
     [ValidateSet("tiny", "base", "small", "medium", "large")]
     [string]$WhisperModel = "small"
 )

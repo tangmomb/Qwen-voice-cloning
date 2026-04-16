@@ -1,6 +1,6 @@
 param(
-    [string]$VoiceDir = "voices",
-    [string]$OutputDir = "outputs\qwen_refs",
+    [string]$VoiceDir = "inputs",
+    [string]$OutputDir = "generated_refs",
     [int]$StartSeconds = 20,
     [double]$DurationSeconds = 3.2
 )

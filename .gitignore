@@ -1,9 +1,5 @@
 outputs/
-voices/*.wav
-voices/*.mp3
-voices/*.flac
-voices/*.m4a
-voices/*.ogg
+generated_refs/
 inputs/*.wav
 inputs/*.mp3
 inputs/*.flac
@@ -15,3 +11,5 @@ __pycache__/
 .ruff_cache/
 hf_cache/
 .venv-qwen/
+.tools/
+logs/

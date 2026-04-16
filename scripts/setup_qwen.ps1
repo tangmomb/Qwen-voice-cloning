@@ -8,7 +8,7 @@ if (-not (Test-Path $PythonExe)) {
 }
 
 & $PythonExe -m pip install --upgrade pip setuptools wheel
-& $PythonExe -m pip install -U qwen-tts soundfile openai-whisper
+& $PythonExe -m pip install -r (Join-Path $ProjectRoot "requirements.txt")
 
 Write-Host "Qwen3-TTS est pret dans .venv-qwen"
-Write-Host "Generation: .\scripts\clone_qwen.ps1 -ReferenceAudio outputs\qwen_refs\voice.wav -ReferenceText '...' -Text 'Bonjour'"
+Write-Host "Lance l'app avec launch_app.bat"
